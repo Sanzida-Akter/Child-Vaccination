@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 20%;
+    height: 80px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.logo img{
+    width: 60%;
+    border: 3px solid rgba(238, 59, 59, 0.538);
+    border-radius: 50px;
+}
+.navbar{
+    display: flex;
+
+}
+.nav-list{
+    width: 100%;
+    height: 80px;
+    background-color: rgba(251, 198, 198, 0.612);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.nav-list li{
+    list-style: none;
+    padding: 2px 30px;
+
+    
+}
+.nav-list li:hover {
+    background-color: rgba(8, 24, 246, 0.3);
+  }
+  
+.nav-list li a{
+    text-decoration: none;
+    color: darkred;    
+    font-weight: bold;
+    transition: color 0.3s;
+    
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color: rgb(8, 24, 246);
+    
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('../img/bg.jpg');
+    background-size:50%;
+    background-blend-mode:darken;
+    background-attachment: fixed;
+}
+.box-main{
+    display: flex;
+    max-width: 50%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.firstsection{
+    height:100vh;
+    padding:5%;
+    background-size: cover;
+}
+.firsthalf{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 15%;
+}
+.secondhalf{
+   
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+
+   
+}
+.btn-link {
+    display: inline-block;
+    padding: 10px 20px; 
+    background-color: #007bff; 
+    color: #fff; 
+    text-decoration: none;
+    border: 1px solid #007bff; 
+    border-radius: 5px; 
+    margin-right: 20%;
+    margin-bottom: -40%;
+    font-weight: bold;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .btn-link:hover {
+    background-color: #b30048; 
+    border: 1px solid #0056b3; 
+  }
+  
+button.btn{
+    padding: 10%;
+    border-radius: 30%;
+    background-color: rgb(236, 134, 134);
+    margin-right: 20%;
+    margin-bottom: -40%;
+    display: flex;
+    opacity: 0.9;
+
+}
+button.btn:hover{
+    padding: 10%;
+    border-radius: 30%;
+    background-color:darkred;
+    margin-right: 20%;
+    margin-bottom: -40%;
+    display: flex;
+    opacity: 0.9;
+    cursor: pointer;
+
+}
+h1 {
+    font-size: 1.9rem; 
+    color: #ff5722; 
+    text-align: center; 
+    justify-content: center;
+    font-weight: bold; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10%; 
+  }
+  
+
+  h3 {
+    font-size: 1.0rem; 
+    color: #f9f7f7; 
+    text-align: center; 
+    justify-content: center;
+    
+  }
+  .box-main2{
+    display: flex;
+    max-width: 100%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    flex-wrap: wrap;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+  .vaccination-info{
+    padding:10%;
+    background-size: cover;
+ }
+ .background2{
+    background: rgba(0, 0, 0, 0.7) url('../img/back3.jpg');
+    background-size:cover;
+    background-blend-mode:darken;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+.firsthalf2{
+
+    max-width: 55%;
+}
+.secondhalf2{
+    max-width: 55%;
+}
+.firsthalf2 li {
+    margin-bottom: 10px; 
+    list-style: none;
+}
+.firsthalf2 a {
+    text-decoration: none; 
+    color: rgb(252, 8, 8);
+    display: block; 
+    padding: 10px; 
+    background-color: white;
+    border: 2px solid rgb(12, 12, 12); 
+    border-radius: 8px; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+.firsthalf2 a:hover {
+    background-color: rgb(240, 159, 159);
+    color: rgb(252, 249, 249);
+}
+
+.secondhalf2 h1 {
+    font-size: 32px; 
+    color: rgb(139, 5, 5); 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    background-color: white;
+    border: 2px solid rgb(246, 168, 168);
+    border-radius: 8px;
+  }
+  
+  .secondhalf2 h2 {
+    font-size: 18px; 
+    color: rgb(208, 9, 9); 
+    padding: 10px;
+    margin-top: 10px; 
+    background-color: white;
+    border: 2px solid rgb(246, 168, 168);
+    border-radius: 8px;
+  }
+  
+.secondhalf2 img{
+   
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+    width: auto;
+    height:auto;
+    border: 3px solid rgba(238, 59, 59, 0.538);
+    border-radius: 50px;
+    width: 60%;
+    height: 80%;  
+}
+
+.vaccination-time {
+    background: #f6a8a8; 
+flex-wrap: wrap;
+    background-size: cover;
+    height:100vh;
+  }
+  
+  .box-main3 {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .background3{
+    background: rgba(0, 0, 0, 0.7) url('../img/vac3.jpg');
+    background-size:100vh;
+    background-blend-mode:darken;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-position: center;
+  }
+.firsthalf3{
+
+    width: 55%;
+    padding: 5px;
+    margin-bottom: 20%;
+    display: flex;
+    flex: 1;
+}
+.secondhalf3{
+    width: 55%;
+    padding: 5px;
+    display: flex;
+    flex: 1;
+    margin-bottom: 25%;
+    
+}
+  
+ .firsthalf3 img{
+    width:100%;
+    height: auto;
+    margin: 2px;
+    border: 3px solid white; 
+    border-radius: 10px;
+
+  }
+
+  .secondhalf3 .text-box {
+    background: #fdfdfd;
+    border: 3px solid rgb(188, 9, 9);
+    border-radius: 10px;
+}
+
+.secondhalf3 .text-box h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-left: 35%;
+    color: rgb(124, 7, 7);
+}
+
+.secondhalf3 .text-box h3 {
+    font-size: 15px;
+    margin-top: 10px;
+    color: rgb(164, 7, 7);
+}
+
+.secondhalf3 .text-box p {
+    font-size: 12px;
+    margin-top: 10px;
+    color: rgb(36, 1, 1);
+}
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.box4 {
+    display: flex;
+    max-width: 100%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(15, 1, 1);
+    flex-wrap: wrap;
+}
+
+.box4 p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.box4 p:first-child {
+    font-weight: bold;
+}
+
+.box4 a {
+    color: #ff7f00;
+    text-decoration: none;
+}
+

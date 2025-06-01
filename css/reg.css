@@ -1,0 +1,125 @@
+body {
+    background: rgba(0, 0, 0, 0.7) url(../img/mom.jpg);
+    display: flex;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    text-align: left;
+    margin-top: 10px;
+    width: 100%;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.social-button {
+    background-color: #3B5998; /* Facebook Blue */
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.or-divider {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.have-account {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.child-details {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.child-details h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.child-details label {
+    display: flex;
+    flex-direction: column; /* Stack label content vertically */
+    margin-top: 10px;
+    width: 100%;
+}
+
+.child-details input,
+.child-details select {
+    width: 100%; /* Full width for input fields */
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.child-details input[type="date"] {
+    width: 100%; /* Full width for date input */
+}
+
+.child-details select {
+    width: 100%; /* Full width for the select element */
+}
+
+/* Adjust the width of the label for better alignment */
+.child-details label[for^="child-blood-group"] {
+    width: 100%; /* Full width for the label */
+}
