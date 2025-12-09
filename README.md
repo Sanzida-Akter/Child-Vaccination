@@ -1,4 +1,7 @@
 # Child-Vaccination
+***Report:***
+[3-2 Project Report (1).pdf](https://github.com/user-attachments/files/24053540/3-2.Project.Report.1.pdf)
+
 # 📌 Overview
 The Child Vaccination System is a web-based platform designed to simplify and automate children’s vaccination tracking for guardians, vaccinators, and healthcare providers.
 The system stores vaccination data, generates a QR-based vaccine card, sends automated email reminders, and helps users locate nearby hospitals.
@@ -89,4 +92,9 @@ Child-Vaccination-System/
 <img width="624" height="330" alt="Picture13" src="https://github.com/user-attachments/assets/7f21eed9-2889-4fff-9256-2e3675bef670" />
 <img width="624" height="184" alt="Picture14" src="https://github.com/user-attachments/assets/5be27195-ec78-423b-947b-23afd9695790" />
 <img width="624" height="151" alt="Picture15" src="https://github.com/user-attachments/assets/641427b9-be93-406d-a2a2-b70fd0ad2170" />
+<img width="384" height="244" alt="Picture17" src="https://github.com/user-attachments/assets/cbfa18ad-d688-4988-98b0-b28fd3636838" />
+<img width="513" height="258" alt="Picture16" src="https://github.com/user-attachments/assets/764328fa-57d0-4164-a28b-53a56143be2f" />
+<img width="576" height="276" alt="Picture18" src="https://github.com/user-attachments/assets/9a2969b6-a528-43a7-ae95-4c370613497a" />
+<img width="576" height="172" alt="Picture19" src="https://github.com/user-attachments/assets/2bb9bd7e-f98e-40b7-94fa-57ead283823f" />
+<img width="616" height="469" alt="Picture20" src="https://github.com/user-attachments/assets/e2989e53-5a55-497f-9bda-b19ea10bb96e" />
 
